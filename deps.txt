@@ -1,0 +1,27 @@
+crypto++ viene el SHA3-256
+Para incluir una biblioteca en CodeBlocks, sigue los siguientes pasos:
+
+Extrae los archivos de la biblioteca que descargaste en una carpeta en tu computadora.
+
+Abre CodeBlocks y crea un nuevo proyecto.
+
+Haz clic en el menú "Proyecto" y selecciona "Agregar archivos".
+
+Busca los archivos de la biblioteca que acabas de descargar. En el caso de Crypto++ deberás buscar el archivo cryptlib.lib (o cryptlib.a si usas un sistema Unix) y agregarlo.
+
+Haz clic en "Aceptar" para agregar los archivos a tu proyecto.
+
+A continuación, deberás especificar la ruta de búsqueda para los archivos de la biblioteca. Para hacer esto, haz clic en el menú "Configuración" y selecciona "Opciones del compilador".
+
+En la ventana de opciones del compilador, haz clic en la pestaña "Directorios".
+
+Haz clic en el botón "Agregar" para agregar una nueva ruta de búsqueda.
+
+Busca la carpeta donde has extraído los archivos de la biblioteca y selecciónala.
+
+Haz clic en "Aceptar" para guardar los cambios.
+
+Ahora estás listo para incluir los encabezados de la biblioteca en tu código y usar sus funciones.
+Para hacer esto, agrega #include en tu archivo de código fuente. Por ejemplo, si quieres usar la función SHA256 de Crypto++, deberás agregar #include <cryptopp/sha.h>
+
+libsodium viene el Salsa20
